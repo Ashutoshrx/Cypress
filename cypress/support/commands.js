@@ -25,4 +25,7 @@
 // Cypress.Commands.overwrite('visit', (originalFn, url, options) => { ... })
 
 // --THe below command helps to access all the cypress methods and modules --
-///<reference types="Cypress" />;
+///<reference types="Cypress" />
+
+// ---The below command helps to access all the cypress-xpath methods and modules--
+///<reference types="cypress-xpath" />
