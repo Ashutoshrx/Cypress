@@ -11,7 +11,9 @@ describe('Explicit Assertions Demo', () => {
 
     let expectedName = 'Vignesh Collings';
     let expectedName2 = 'xyz';
-    cy.get("p.oxd-userdropdown-name").then((result) => {
+    cy.get('p.oxd-userdropdown-name').then((result) => {
+      // Using xpath
+      // cy.xpath("//p[@class='oxd-userdropdown-name']").then((result) => {
       let actualName = result.text();
       // BDD Style
       expect(actualName).to.equal(expectedName);
