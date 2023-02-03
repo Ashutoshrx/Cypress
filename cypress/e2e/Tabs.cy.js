@@ -1,7 +1,7 @@
 const URL = 'https://the-internet.herokuapp.com/windows';
 
 describe('Handle Multiple Tabs', () => {
-  it.skip('First approach', () => {
+  it('First approach', () => {
     cy.visit(URL);
 
     // To open the target tab in the same tab
